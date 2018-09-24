@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-use/aopalliance-.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-use/aspectjweaver-1.7.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-use/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-use/spring-aop-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-use/spring-beans-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-use/spring-context-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-use/spring-core-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-use/spring-expression-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-use/spring-aspects-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-source/spring-aop-5.0.0.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-source/spring-aspects-5.0.0.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-source/spring-beans-5.0.0.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-source/spring-context-5.0.0.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-source/spring-core-5.0.0.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-source/spring-expression-5.0.0.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-source/spring-instrument-5.0.0.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-source/spring-jcl-5.0.0.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-source/spring-jdbc-5.0.0.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-source/spring-jms-5.0.0.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-source/spring-messaging-5.0.0.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-source/spring-orm-5.0.0.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-source/spring-oxm-5.0.0.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-source/spring-test-5.0.0.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-source/spring-tx-5.0.0.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-source/spring-web-5.0.0.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-source/spring-webflux-5.0.0.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-source/spring-webmvc-5.0.0.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-source/spring-websocket-5.0.0.RELEASE-sources.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

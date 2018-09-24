@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/aop 
+	http://www.springframework.org/schema/aop/spring-aop.xsd">
+	
+<!--  
+		1.创建目标bean
+		2.创建通知类（Aspect类）
+		3.织入（获得代理类）
+-->
+
+<!-- 1.目标类 -->
+<bean id="userServiceId" class="com.csii.UserServiceImpl"></bean>
+<!--2. 通知类 -->
+<bean id="myAspect2" class="com.csii.MyAspect2"></bean>
+<!--3.获得代理类 （半自动） -->
+<!-- <bean id="proxyUser" class="org.springframework.aop.framework.ProxyFactoryBean">
+	<property name="interfaces" value="com.csii.UserService"></property>
+	<property name="target" ref="userServiceId"></property>
+	<property name="interceptorNames" value="myAspect2"></property>	
+</bean> -->
+
+
+<!--3.全自动aop
+<aop:config proxy-target-class="true">为true时为cglb，默认为jdk动态代理
+  -->
+<aop:config proxy-target-class="true">
+	<aop:pointcut expression="execution(* com.csii.*.*(..))" id="myPointCut"/>
+	<aop:advisor advice-ref="myAspect2" pointcut-ref="myPointCut"/>
+	
+</aop:config>
+
+</beans>
