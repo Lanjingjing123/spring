@@ -10,9 +10,9 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="lib" path="C:/Study/Spring/spring-use/aopalliance-.jar"/>
-	<classpathentry kind="lib" path="C:/Study/Spring/spring-use/aspectjweaver-1.7.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-use/aspectjweaver-1.7.4.RELEASE.jar" sourcepath="C:/Study/Spring/spring-source/spring-aspects-5.0.0.RELEASE-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Study/Spring/spring-use/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Study/Spring/spring-use/spring-aop-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Study/Spring/spring-use/spring-aop-5.0.0.RELEASE.jar" sourcepath="C:/Study/Spring/spring-source/spring-aop-5.0.0.RELEASE-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Study/Spring/spring-use/spring-beans-5.0.0.RELEASE.jar"/>
 	<classpathentry kind="lib" path="C:/Study/Spring/spring-use/spring-context-5.0.0.RELEASE.jar"/>
 	<classpathentry kind="lib" path="C:/Study/Spring/spring-use/spring-core-5.0.0.RELEASE.jar"/>
