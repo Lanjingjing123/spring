@@ -7,7 +7,7 @@
 	http://www.springframework.org/schema/aop 
 	http://www.springframework.org/schema/aop/spring-aop.xsd">
 	
-<!--  基于xml的配置
+<!--  基于注解的配置
 		1.创建目标bean
 		2.创建通知类（Aspect类）
 		3.织入（获得代理类）
