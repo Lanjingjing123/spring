@@ -35,19 +35,19 @@
 		 	参数1：连接点描述
 		 	参数2：返回值：目标方法的返回值
 		  -->
-		<!--  <aop:after-returning method="afterReturning" pointcut-ref="myPointCut" returning="ret"/> -->
-		<!-- 	<aop:before method="before" pointcut-ref="myPointCut"/> -->
-		
-		<!--3.3环绕通知  
-		<aop:around method="" pointcut-ref=""/>
-		method:环绕通知方法
-		pointcut-ref:切入点
-		通知方法格式：public Object around(ProceedingJoinPoint joinPoint) throws Throwable{}
-		-->
-		 <aop:around method="around" pointcut-ref="myPointCut"/> 
-		
-		<!--3.4 抛异常通知  -->
-		 <aop:after-throwing method="afterThrowing" pointcut-ref="myPointCut" throwing="e"/> 
+		 <aop:after-returning method="afterReturning" pointcut-ref="myPointCut" returning="ret"/>
+	<!-- 	<aop:before method="before" pointcut-ref="myPointCut"/> -->
+	
+	<!--3.3环绕通知  
+	<aop:around method="" pointcut-ref=""/>
+	method:环绕通知方法
+	pointcut-ref:切入点
+	通知方法格式：public Object around(ProceedingJoinPoint joinPoint) throws Throwable{}
+	-->
+	<!-- <aop:around method="around" pointcut-ref="myPointCut"/> -->
+	
+	<!--3.4 抛异常通知  -->
+	<aop:after-throwing method="afterThrowing" pointcut-ref="myPointCut" throwing="e"/>
 	</aop:aspect>
 </aop:config>
 </beans>

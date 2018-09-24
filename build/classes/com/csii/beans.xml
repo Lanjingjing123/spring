@@ -7,7 +7,7 @@
 	http://www.springframework.org/schema/aop 
 	http://www.springframework.org/schema/aop/spring-aop.xsd">
 	
-<!--  
+<!--  基于xml的配置
 		1.创建目标bean
 		2.创建通知类（Aspect类）
 		3.织入（获得代理类）
@@ -31,7 +31,6 @@
 <aop:config proxy-target-class="true">
 	<aop:pointcut expression="execution(* com.csii.*.*(..))" id="myPointCut"/>
 	<aop:advisor advice-ref="myAspect2" pointcut-ref="myPointCut"/>
-	
 </aop:config>
 
 </beans>

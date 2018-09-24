@@ -31,7 +31,6 @@
 <aop:config proxy-target-class="true">
 	<aop:pointcut expression="execution(* com.csii.*.*(..))" id="myPointCut"/>
 	<aop:advisor advice-ref="myAspect2" pointcut-ref="myPointCut"/>
-	
 </aop:config>
 
 </beans>
